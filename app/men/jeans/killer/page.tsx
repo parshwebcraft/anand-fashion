@@ -79,7 +79,8 @@ export default function KillerJeansPage() {
         </p>
 
         <a
-          href="https://wa.me/91XXXXXXXXXX?text=Hi%20Anand%20Fashion,%20I%20want%20to%20enquire%20about%20Killer%20Jeans%20for%20men.%20Please%20share%20available%20sizes,%20colours%20and%20price."
+          href="https://wa.me/919214456664?text=Hi%20Anand%20Fashion,%20I%20saw%20Killer%20jeans%20on%20your%20website.%20Please%20confirm%20size%20availability%20and%20price%20range.
+"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center bg-green-600 text-white px-6 py-3 rounded-lg text-sm font-medium hover:bg-green-700 transition"

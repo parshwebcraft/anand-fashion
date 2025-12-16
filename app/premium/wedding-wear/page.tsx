@@ -101,7 +101,8 @@ export default function PremiumWeddingWearPage() {
         </p>
 
         <a
-          href="https://wa.me/919214456664?text=Hi%20Anand%20Fashion,%20I%20want%20to%20enquire%20about%20premium%20wedding%20wear%20for%20men%20and%20women.%20Please%20share%20available%20designs,%20sizes%20and%20pricing."
+          href="https://wa.me/919214456664?text=Hi%20Anand%20Fashion,%20I%20want%20to%20enquire%20about%20premium%20wedding%20wear%20for%20men%20and%20women.%20Please%20guide%20me.
+"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center bg-green-600 text-white px-6 py-3 rounded-lg text-sm font-medium hover:bg-green-700 transition"

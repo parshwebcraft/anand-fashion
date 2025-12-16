@@ -10,7 +10,6 @@ export const metadata = {
 export default function MenShirtsPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12 space-y-20">
-
       {/* PAGE HEADER */}
       <div className="space-y-3">
         <h1 className="text-3xl font-bold">Men’s Shirts</h1>
@@ -39,14 +38,12 @@ export default function MenShirtsPage() {
           href="/men/shirts/aeromen"
         />
 
-    
         <ProductCard
           name="Structuren Cargo Shirts"
           category="Men / Shirts"
           image="/products/men/brands/StructurenCargo.jpg"
           href="/men/shirts/structuren-cargo"
         />
-
       </ProductRow>
 
       {/* SEO TEXT */}
@@ -55,7 +52,6 @@ export default function MenShirtsPage() {
         high-quality branded shirts. Visit our store in Bhopalpura or contact us
         on WhatsApp for latest designs, sizes and availability.
       </p>
-
     </div>
   );
 }

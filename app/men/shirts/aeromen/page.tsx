@@ -9,7 +9,6 @@ export const metadata = {
 export default function AeromenShirtsPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12 space-y-16">
-
       {/* ================= PAGE HEADER ================= */}
       <div className="space-y-3">
         <h1 className="text-3xl font-bold">Aeromen Shirts</h1>
@@ -24,7 +23,6 @@ export default function AeromenShirtsPage() {
 
       {/* ================= FORMAL SHIRTS ================= */}
       <Section title="Formal Shirts">
-
         <ProductRow title="Solid & Office Wear Shirts">
           <ProductCard
             name="Aeromen Solid Formal Shirt"
@@ -52,12 +50,10 @@ export default function AeromenShirtsPage() {
             image="/products/men/aeromen/formal-4.jpg"
           />
         </ProductRow>
-
       </Section>
 
       {/* ================= CASUAL SHIRTS ================= */}
       <Section title="Casual Shirts">
-
         <ProductRow title="Printed & Casual Shirts">
           <ProductCard
             name="Aeromen Printed Casual Shirt"
@@ -71,8 +67,27 @@ export default function AeromenShirtsPage() {
             image="/products/men/aeromen/casual-2.jpg"
           />
         </ProductRow>
-
       </Section>
+      {/* ================= WHATSAPP ENQUIRY ================= */}
+      <div className="border rounded-xl p-6 bg-gray-50 space-y-3">
+        <h2 className="text-lg font-semibold">Enquire About Aeromen Shirts</h2>
+
+        <p className="text-sm text-gray-600 max-w-2xl">
+          Looking for Aeromen shirts in a specific size, colour or style?
+          Contact Anand Fashion on WhatsApp for availability and pricing
+          details.
+        </p>
+
+        <a
+          href="https://wa.me/919214456664?text=Hi%20Anand%20Fashion,%20I%20saw%20Aeromen%20shirts%20on%20your%20website.%20Please%20confirm%20available%20sizes%20and%20price%20range.
+"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center bg-green-600 text-white px-6 py-3 rounded-lg text-sm font-medium hover:bg-green-700 transition"
+        >
+          Enquire on WhatsApp
+        </a>
+      </div>
 
       {/* ================= STORE NOTE ================= */}
       <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
@@ -81,7 +96,6 @@ export default function AeromenShirtsPage() {
         collection in Udaipur with multiple colour and size options. Visit our
         store in Bhopalpura or contact us on WhatsApp for availability.
       </p>
-
     </div>
   );
 }
