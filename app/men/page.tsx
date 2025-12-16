@@ -4,121 +4,115 @@ import ProductRow from "@/components/ProductRow";
 export const metadata = {
   title: "Men’s Clothing Store in Udaipur",
   description:
-    "Shop men’s clothing in Udaipur at Anand Fashion. Explore shirts, jeans, t-shirts, cargo pants, jackets and winter wear.",
+    "Shop men’s clothing in Udaipur at Anand Fashion. Explore branded shirts, jeans, t-shirts, cargo pants and winter wear for men.",
 };
 
 export default function MenPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12 space-y-20">
-      
-      {/* Page Header */}
-      <div>
+      {/* ================= PAGE HEADER ================= */}
+      <div className="space-y-3">
         <h1 className="text-3xl font-bold">Men’s Collection</h1>
-        <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
-  Anand Fashion is a trusted men’s clothing with exclusive branded summer and winter wear for men
-</p>
 
+        <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
+          Anand Fashion is a trusted men’s clothing store in Udaipur offering
+          exclusive branded summer and winter wear for men. All products are
+          available in-store — contact us on WhatsApp for sizes and colours.
+        </p>
       </div>
 
-      {/* ===== SUMMER WEAR ===== */}
-      <Section title="Summer Wear">
-        
-        <ProductRow title="Shirts">
-          <ProductCard
-            name="Men Cotton Shirt"
-            price="₹1,299"
-            category="Men / Shirts"
-            image="/products/men/Shirt.jpg"
-          />
-          <ProductCard
-            name="Formal White Shirt"
-            price="₹1,499"
-            category="Men / Shirts"
-            image="/products/men/Shirt.jpg"
-          />
-        </ProductRow>
+      {/* ================= SUMMER WEAR ================= */}
+      <Section title="Shop By Category">
+        {/* Shirts */}
+        <ProductRow
+  title="Shirts"
+  description="Explore our complete range of branded formal and casual shirts for men."
+>
+  {/* 👉 SHIRTS HUB ONLY */}
+  <ProductCard
+    name="View All Shirt Collections"
+    category="Men / Shirts"
+    image="/products/men/brands/shirts-hub.jpg"
+    href="/men/shirts"
+  />
+</ProductRow>
 
-        <ProductRow title="Jeans">
+
+        {/* Jeans — FINAL POLISH */}
+        <ProductRow
+          title="Jeans"
+          description="Branded denim jeans available in multiple fits and washes for everyday and casual wear."
+        >
+          {/* 👉 JEANS HUB ENTRY */}
           <ProductCard
-            name="Slim Fit Denim Jeans"
-            price="₹1,799"
+            name="All Jeans Collections"
             category="Men / Jeans"
-            image="/products/men/Jeans-1.jpg"
+            image="/products/men/brands/jeans.jpg"
+            href="/men/jeans"
           />
-          <ProductCard
-            name="Regular Blue Jeans"
-            price="₹1,699"
-            category="Men / Jeans"
-            image="/products/men/Jeans-1.jpg"
-          />
+
+          
         </ProductRow>
 
-        <ProductRow title="T-Shirts">
+        {/* T-Shirts */}
+        <ProductRow
+          title="T-Shirts"
+          description="Comfortable cotton t-shirts available in printed, plain and casual styles."
+        >
+          {/* 👉 T-SHIRTS HUB ENTRY */}
           <ProductCard
-            name="Printed T-Shirt"
-            price="₹899"
+            name="All T-Shirt Collections"
             category="Men / T-Shirts"
-            image="/products/men/T-Shirt-2.jpg"
+            image="/products/men/brands/tshirts.jpg"
+            href="/men/t-shirts"
           />
-          <ProductCard
-            name="Plain Cotton T-Shirt"
-            price="₹799"
-            category="Men / T-Shirts"
-            image="/products/men/T-Shirt-1.jpg"
-          />
+
+          
         </ProductRow>
 
-        <ProductRow title="Cargo Pants">
+        {/* Cargo Pants — FINAL POLISH */}
+        <ProductRow
+          title="Cargo Pants"
+          description="Stylish and durable cargo pants available for casual, travel and outdoor use."
+        >
+          {/* 👉 CARGO PANTS HUB ENTRY */}
           <ProductCard
-            name="Men Cargo Pants"
-            price="₹1,599"
+            name="All Cargo Pants Collections"
             category="Men / Cargo Pants"
-            image="/products/men/cargo-1.jpg"
+            image="/products/men/brands/cargo.jpg"
+            href="/men/cargo-pants"
           />
-          <ProductCard
-            name="Slim Fit Cargo"
-            price="₹1,699"
-            category="Men / Cargo Pants"
-            image="/products/men/cargo-1.jpg"
-          />
-        </ProductRow>
 
+          
+        </ProductRow>
       </Section>
 
-      {/* ===== WINTER WEAR ===== */}
+      {/* ================= WINTER WEAR ================= */}
       <Section title="Winter Wear">
-        <ProductRow title="Jackets, Hoodies & Sweaters">
+        <ProductRow
+          title="Jackets, Hoodies & Sweaters"
+          description="Warm and comfortable winter wear including jackets, hoodies and sweaters."
+        >
           <ProductCard
-  name="Men Cotton Shirt"
-  price="₹1,299"
-  category="Men / Shirts"
-  image="/products/men/shirt-1.jpg"
-/>
-
-          <ProductCard
-  name="Hodded Sweat Shirt"
-  price="₹1,599"
-  category="Men / Shirts"
-  image="/products/men/shirt-2.jpg"
-/>
-     <ProductCard
-  name="Men Full Shirt"
-  price="₹1,299"
-  category="Men / Shirts"
-  image="/products/men/shirt-1.jpg"
-/>
-
+            name="Winter Wear Collection"
+            category="Men / Winter Wear"
+            image="/products/men/brands/winter.jpg"
+            href="/men/winter"
+          />
         </ProductRow>
       </Section>
 
+      {/* ================= SEO / LOCAL TEXT ================= */}
+      <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
+        Anand Fashion offers a wide range of branded men’s clothing in Udaipur,
+        including shirts, jeans, t-shirts, cargo pants and winter wear. Visit
+        our store in Bhopalpura or contact us on WhatsApp to check availability
+        of sizes and colours.
+      </p>
     </div>
   );
 }
- <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
-  Anand Fashion is a trusted men’s clothing store in Udaipur offering a wide
-  range of shirts, jeans, t-shirts, cargo pants, and winter wear. Located in
-  Bhopalpura, we are known for quality clothing and affordable pricing.
-</p>
+
 /* ================= SECTION ================= */
 
 function Section({
@@ -135,6 +129,3 @@ function Section({
     </section>
   );
 }
-
-
-

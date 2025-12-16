@@ -2,95 +2,89 @@ import ProductCard from "@/components/ProductCard";
 import ProductRow from "@/components/ProductRow";
 
 export const metadata = {
-  title: "Premium Wear Store in Udaipur",
+  title: "Premium Wear Store in Udaipur | Anand Fashion",
   description:
-    "Discover premium clothing in Udaipur at Anand Fashion. Blazers, sherwani, wedding wear and party wear available.",
+    "Explore premium wear in Udaipur at Anand Fashion. Browse blazers, sherwani, party wear and wedding wear collections.",
 };
 
 export default function PremiumPage() {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-12 space-y-20 overflow-x-hidden">
-      
-      {/* Page Header */}
-      <div>
+    <div className="max-w-7xl mx-auto px-4 py-12 space-y-20">
+
+      {/* ================= PAGE HEADER ================= */}
+      <div className="space-y-3">
         <h1 className="text-3xl font-bold">Premium Collection</h1>
-        <p className="mt-2 text-gray-600">
-          Exclusive premium wear for weddings, parties & special occasions
+
+        <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
+          Discover an exclusive premium clothing collection at Anand Fashion,
+          Udaipur. Designed for weddings, parties and special occasions,
+          our premium wear reflects elegance, craftsmanship and style.
         </p>
       </div>
 
-      {/* ===== PREMIUM WEAR ===== */}
-      <Section title="Premium Wear">
+      {/* ================= PREMIUM CATEGORIES HUB ================= */}
+      <Section title="Shop Premium Categories">
 
-        <ProductRow title="Blazers">
+        {/* BLAZERS */}
+        <ProductRow
+          title="Blazers"
+          description="Elegant premium blazers suitable for weddings, parties and formal occasions."
+        >
           <ProductCard
-            name="Men Formal Blazer"
-            price="₹4,999"
+            name="View Blazer Collection"
             category="Premium / Blazers"
-            image="/products/premium/blazer-2.jpg"
-          />
-          <ProductCard
-            name="Slim Fit Party Blazer"
-            price="₹6,499"
-            category="Premium / Blazers"
-            image="/products/premium/blazer-1.jpg"
+            image="/products/premium/categories/blazers.jpg"
+            href="/premium/blazers"
           />
         </ProductRow>
 
-        <ProductRow title="Sherwani">
+        {/* SHERWANI */}
+        <ProductRow
+          title="Sherwani"
+          description="Premium sherwani collections crafted for weddings and festive occasions."
+        >
           <ProductCard
-            name="Wedding Sherwani"
-            price="₹9,999"
+            name="View Sherwani Collection"
             category="Premium / Sherwani"
-            image="/products/premium/sherwani-1.jpg"
-          />
-          <ProductCard
-            name="Designer Sherwani"
-            price="₹12,499"
-            category="Premium / Sherwani"
-            image="/products/premium/sherwani-2.jpg"
+            image="/products/premium/categories/sherwani.jpg"
+            href="/premium/sherwani"
           />
         </ProductRow>
 
-        <ProductRow title="Party Wear">
+        {/* PARTY WEAR */}
+        <ProductRow
+          title="Party Wear"
+          description="Stylish premium party wear designed for celebrations and evening events."
+        >
           <ProductCard
-            name="Party Suit Set"
-            price="₹7,499"
+            name="View Party Wear Collection"
             category="Premium / Party Wear"
-            image="/products/premium/party-wear-1.jpg"
-          />
-          <ProductCard
-            name="Evening Wear Set"
-            price="₹8,999"
-            category="Premium / Party Wear"
-            image="/products/premium/party-wear-2.jpg"
+            image="/products/premium/categories/party.jpg"
+            href="/premium/party-wear"
           />
         </ProductRow>
 
-        <ProductRow title="Wedding & Occasion Wear">
+        {/* WEDDING WEAR */}
+        <ProductRow
+          title="Wedding Wear"
+          description="Exclusive wedding and occasion wear created for memorable moments."
+        >
           <ProductCard
-            name="Premium Wedding Set"
-            price="₹14,999"
+            name="View Wedding Wear Collection"
             category="Premium / Wedding Wear"
-            image="/products/premium/wedding-wear-1.jpg"
-          />
-          <ProductCard
-            name="Festive Occasion Wear"
-            price="₹11,999"
-            category="Premium / Wedding Wear"
-            image="/products/premium/wedding-wear-2.jpg"
+            image="/products/premium/categories/wedding.jpg"
+            href="/premium/wedding-wear"
           />
         </ProductRow>
 
       </Section>
 
-      {/* SEO TEXT */}
+      {/* ================= SEO / LOCAL TEXT ================= */}
       <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
-        Anand Fashion offers premium clothing in Udaipur for weddings, parties
-        and special occasions. Our premium collection includes blazers,
-        sherwani, party wear and wedding outfits crafted with attention to
-        detail and elegant styling. Visit our store in Bhopalpura, Udaipur for
-        exclusive premium wear.
+        Anand Fashion is a trusted premium wear store in Udaipur offering
+        elegant blazers, sherwani, party wear and wedding outfits. Visit our
+        store in Bhopalpura to explore premium collections tailored for
+        special occasions.
       </p>
 
     </div>
@@ -107,13 +101,9 @@ function Section({
   children: React.ReactNode;
 }) {
   return (
-    <section className="space-y-10">
+    <section className="space-y-12">
       <h2 className="text-2xl font-semibold">{title}</h2>
       {children}
     </section>
   );
 }
-
-/* ================= PRODUCT ROW ================= */
-
-
