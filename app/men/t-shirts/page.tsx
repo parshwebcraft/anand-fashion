@@ -1,10 +1,9 @@
-import Link from "next/link";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata = {
   title: "Men’s T-Shirts in Udaipur | Anand Fashion",
   description:
-    "Explore branded men’s T-shirts at Anand Fashion, Udaipur. Browse XYZ T-Shirts and ABC T-Shirts in multiple styles and fits.",
+    "Explore men’s T-shirts at Anand Fashion, Udaipur. Browse comfortable and stylish T-shirt collections from trusted brands.",
 };
 
 export default function MenTshirtsPage() {
@@ -17,14 +16,14 @@ export default function MenTshirtsPage() {
 
         <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
           Discover a stylish range of men’s T-shirts at Anand Fashion, Udaipur.
-          Choose from trusted brands offering comfortable fabrics, modern
-          designs and perfect fitting for everyday wear.
+          Our T-shirt collection focuses on comfort, modern designs and
+          everyday wear suitability.
         </p>
       </div>
 
-      {/* ================= T-SHIRTS BRANDS HUB ================= */}
+      {/* ================= T-SHIRTS COLLECTION HUB ================= */}
       <section className="space-y-8">
-        <h2 className="text-2xl font-semibold">T-Shirt Brands</h2>
+        <h2 className="text-2xl font-semibold">Explore T-Shirt Collections</h2>
 
         <div
           className="
@@ -32,30 +31,26 @@ export default function MenTshirtsPage() {
             md:grid md:grid-cols-4 md:gap-6 md:overflow-visible
           "
         >
-          <Link href="/men/t-shirts/xyz" className="block">
-            <ProductCard
-              name="XYZ T-Shirts"
-              category="Men / T-Shirts"
-              image="/products/men/tshirts/brands/xyz.jpg"
-            />
-          </Link>
+          <ProductCard
+            name="View T-Shirt Collections"
+            category="Men / T-Shirts"
+            image="/products/men/tshirts/brands/tshirts-hub.jpg"
+          />
 
-          <Link href="/men/t-shirts/abc" className="block">
-            <ProductCard
-              name="ABC T-Shirts"
-              category="Men / T-Shirts"
-              image="/products/men/tshirts/brands/abc.jpg"
-            />
-          </Link>
+          <ProductCard
+            name="All Branded T-Shirts"
+            category="Men / T-Shirts"
+            image="/products/men/tshirts/brands/all-brands.jpg"
+          />
         </div>
       </section>
 
       {/* ================= STORE NOTE ================= */}
       <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
-        Anand Fashion is a trusted men’s clothing store in Udaipur offering
-        branded T-shirts in regular and slim fits. Visit our store in
-        Bhopalpura or browse individual brands to enquire about sizes,
-        colours and availability.
+        Anand Fashion offers a curated range of men’s T-shirts in Udaipur,
+        including casual and everyday wear styles. Brand-wise collections will
+        be added after layout approval. Visit our store in Bhopalpura to explore
+        the latest arrivals.
       </p>
 
     </div>
