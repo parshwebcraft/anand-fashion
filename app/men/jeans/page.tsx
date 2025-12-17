@@ -29,18 +29,26 @@ export default function MenJeansPage() {
         description="Select a brand to view available designs, colours and sizes."
       >
         <ProductCard
-          name="Killer Jeans"
+          name="Slim Fit Jeans"
           category="Men / Jeans"
           image="/products/men/brands/killer.jpg"
           href="/men/jeans/killer"
         />
 
         <ProductCard
-          name="Privilege Jeans"
+          name="Comfort Narrow Jeans"
           category="Men / Jeans"
           image="/products/men/brands/privilege.jpg"
           href="/men/jeans/privilege"
         />
+        <ProductCard
+          name="Straight Fit Jeans"
+          category="Men / Jeans"
+          image="/products/men/brands/privilege.jpg"
+          href="/men/jeans/straight-fit"
+        />
+
+
 
     
       </ProductRow>

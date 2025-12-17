@@ -53,7 +53,7 @@ export default function HomePage() {
       {/* ================= TRUST BADGES ================= */}
       <section className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-          <TrustBadge title="10+ Years Experience" />
+          <TrustBadge title="32+ Years Experience" />
           <TrustBadge title="Udaipur Local Store" />
           <TrustBadge title="Quality Fabrics" />
           <TrustBadge title="Trusted by Families" />

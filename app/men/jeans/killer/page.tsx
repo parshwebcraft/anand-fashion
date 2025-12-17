@@ -1,9 +1,9 @@
 import ProductCard from "@/components/ProductCard";
 
 export const metadata = {
-  title: "Killer Jeans for Men in Udaipur | Anand Fashion",
+  title: "Branded Slim Fit Jeans for Men in Udaipur | Anand Fashion",
   description:
-    "Explore Killer branded jeans for men in Udaipur at Anand Fashion. Slim fit and regular fit Killer jeans available in multiple washes and sizes.",
+    "Explore Branded jeans for men in Udaipur at Anand Fashion. Slim fit and regular fit jeans available in multiple washes and sizes.",
 };
 
 export default function KillerJeansPage() {
@@ -12,12 +12,11 @@ export default function KillerJeansPage() {
 
       {/* ================= PAGE HEADER ================= */}
       <div className="space-y-3">
-        <h1 className="text-3xl font-bold">Killer Jeans</h1>
+        <h1 className="text-3xl font-bold">Slim Fit Jeans</h1>
 
         <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
-          Discover premium Killer branded jeans for men at Anand Fashion,
-          Udaipur. Killer jeans are known for modern fits, durable fabric
-          and everyday comfort. Available in slim fit and regular fit styles
+          Discover premium  branded Slim Fit jeans for men at Anand Fashion,
+          Udaipur. Available in slim fit and regular fit styles
           with multiple colour and size options.
         </p>
       </div>
@@ -27,19 +26,19 @@ export default function KillerJeansPage() {
 
         <ProductRow title="Modern Slim Fit Styles">
           <ProductCard
-            name="Killer Slim Fit Blue Jeans"
+            name="Slim Fit Blue Jeans"
             category="Men / Jeans / Killer"
             image="/products/men/jeans/killer/slim-1.jpg"
           />
 
           <ProductCard
-            name="Killer Slim Fit Dark Blue Jeans"
+            name="Slim Fit Dark Blue Jeans"
             category="Men / Jeans / Killer"
             image="/products/men/jeans/killer/slim-2.jpg"
           />
 
           <ProductCard
-            name="Killer Slim Fit Black Jeans"
+            name="Slim Fit Black Jeans"
             category="Men / Jeans / Killer"
             image="/products/men/jeans/killer/slim-3.jpg"
           />
@@ -52,13 +51,13 @@ export default function KillerJeansPage() {
 
         <ProductRow title="Comfort & Daily Wear">
           <ProductCard
-            name="Killer Regular Fit Blue Jeans"
+            name="Regular Fit Blue Jeans"
             category="Men / Jeans / Killer"
             image="/products/men/jeans/killer/regular-1.jpg"
           />
 
           <ProductCard
-            name="Killer Regular Fit Mid Blue Jeans"
+            name="Regular Fit Mid Blue Jeans"
             category="Men / Jeans / Killer"
             image="/products/men/jeans/killer/regular-2.jpg"
           />
@@ -69,11 +68,11 @@ export default function KillerJeansPage() {
       {/* ================= WHATSAPP ENQUIRY ================= */}
       <div className="border rounded-xl p-6 bg-gray-50 space-y-3">
         <h2 className="text-lg font-semibold">
-          Enquire About Killer Jeans
+          Enquire About Slim Jeans
         </h2>
 
         <p className="text-sm text-gray-600 max-w-2xl">
-          Looking for the right size, fit or colour in Killer jeans?
+          Looking for the right size, fit or colour in Slim Fit jeans?
           Contact Anand Fashion on WhatsApp for latest stock availability
           and pricing details.
         </p>
@@ -92,7 +91,7 @@ export default function KillerJeansPage() {
       {/* ================= STORE NOTE ================= */}
       <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
         Anand Fashion is a trusted men’s clothing store in Udaipur offering
-        original Killer jeans with comfortable fits and durable fabric.
+        original Branded Slim Fit jeans with comfortable fits and durable fabric.
         Visit our store in Bhopalpura or contact us online for current stock
         and size availability.
       </p>

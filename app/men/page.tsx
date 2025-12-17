@@ -2,89 +2,81 @@ import ProductCard from "@/components/ProductCard";
 import ProductRow from "@/components/ProductRow";
 
 export const metadata = {
-  title: "Men’s Clothing Store in Udaipur",
+  title: "Men’s Clothing Store in Udaipur | Anand Fashion",
   description:
-    "Shop men’s clothing in Udaipur at Anand Fashion. Explore branded shirts, jeans, t-shirts, cargo pants and winter wear for men.",
+    "Explore men’s clothing at Anand Fashion, Udaipur. Browse shirts, jeans, formal trousers, cargo pants and winter wear for men.",
 };
 
 export default function MenPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12 space-y-20">
+
       {/* ================= PAGE HEADER ================= */}
       <div className="space-y-3">
         <h1 className="text-3xl font-bold">Men’s Collection</h1>
 
         <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
           Anand Fashion is a trusted men’s clothing store in Udaipur offering
-          exclusive branded summer and winter wear for men. All products are
-          available in-store — contact us on WhatsApp for sizes and colours.
+          a curated range of summer and winter wear for men. Browse category-wise
+          collections to explore available styles.
         </p>
       </div>
 
-      {/* ================= SUMMER WEAR ================= */}
+      {/* ================= MEN CATEGORIES HUB ================= */}
       <Section title="Shop By Category">
+
         {/* Shirts */}
         <ProductRow
-  title="Shirts"
-  description="Explore our complete range of branded formal and casual shirts for men."
->
-  {/* 👉 SHIRTS HUB ONLY */}
-  <ProductCard
-    name="View All Shirt Collections"
-    category="Men / Shirts"
-    image="/products/men/brands/shirts-hub.jpg"
-    href="/men/shirts"
-  />
-</ProductRow>
+          title="Shirts"
+          description="Explore our complete range of branded formal and casual shirts for men."
+        >
+          <ProductCard
+            name="View All Shirt Collections"
+            category="Men / Shirts"
+            image="/products/men/brands/shirts-hub.jpg"
+            href="/men/shirts"
+          />
+        </ProductRow>
 
-
-        {/* Jeans — FINAL POLISH */}
+        {/* Jeans */}
         <ProductRow
           title="Jeans"
           description="Branded denim jeans available in multiple fits and washes for everyday and casual wear."
         >
-          {/* 👉 JEANS HUB ENTRY */}
           <ProductCard
             name="All Jeans Collections"
             category="Men / Jeans"
             image="/products/men/brands/jeans.jpg"
             href="/men/jeans"
           />
-
-          
         </ProductRow>
 
-        {/* T-Shirts */}
+        {/* Formal Trousers */}
         <ProductRow
-          title="T-Shirts"
-          description="Comfortable cotton t-shirts available in printed, plain and casual styles."
+          title="Formal Trousers"
+          description="Classic formal trousers suitable for office wear, business meetings and daily formal use."
         >
-          {/* 👉 T-SHIRTS HUB ENTRY */}
           <ProductCard
-            name="All T-Shirt Collections"
-            category="Men / T-Shirts"
-            image="/products/men/brands/tshirts.jpg"
-            href="/men/t-shirts"
+            name="All Formal Trouser Collections"
+            category="Men / Formal Trousers"
+            image="/products/men/brands/formal-trousers.jpg"
+            href="/men/formal"
           />
-
-          
         </ProductRow>
 
-        {/* Cargo Pants — FINAL POLISH */}
+        {/* Cargo Pants */}
         <ProductRow
           title="Cargo Pants"
-          description="Stylish and durable cargo pants available for casual, travel and outdoor use."
+          description="Stylish and durable cargo pants suitable for casual, travel and outdoor use."
         >
-          {/* 👉 CARGO PANTS HUB ENTRY */}
           <ProductCard
             name="All Cargo Pants Collections"
             category="Men / Cargo Pants"
             image="/products/men/brands/cargo.jpg"
             href="/men/cargo-pants"
           />
-
-          
         </ProductRow>
+
       </Section>
 
       {/* ================= WINTER WEAR ================= */}
@@ -104,11 +96,11 @@ export default function MenPage() {
 
       {/* ================= SEO / LOCAL TEXT ================= */}
       <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
-        Anand Fashion offers a wide range of branded men’s clothing in Udaipur,
-        including shirts, jeans, t-shirts, cargo pants and winter wear. Visit
-        our store in Bhopalpura or contact us on WhatsApp to check availability
-        of sizes and colours.
+        Anand Fashion offers a wide range of men’s clothing in Udaipur,
+        including shirts, jeans, formal trousers, cargo pants and winter wear.
+        Visit our store in Bhopalpura to explore the latest collections.
       </p>
+
     </div>
   );
 }

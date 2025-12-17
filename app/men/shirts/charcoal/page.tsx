@@ -1,107 +1,71 @@
 import ProductCard from "@/components/ProductCard";
 
 export const metadata = {
-  title: "Charcoal Shirts for Men in Udaipur",
+  title: "Casual Wear Shirts for Men in Udaipur | Anand Fashion",
   description:
-    "Shop Charcoal branded shirts for men in Udaipur at Anand Fashion. Available in multiple colours, fits and sizes.",
+    "Explore casual wear shirts for men at Anand Fashion, Udaipur. Stylish and comfortable shirts available in multiple colours and sizes.",
 };
 
-export default function CharcoalShirtsPage() {
+export default function CasualWearShirtsPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12 space-y-16">
 
       {/* ================= PAGE HEADER ================= */}
       <div className="space-y-3">
-        <h1 className="text-3xl font-bold">Charcoal Shirts</h1>
+        <h1 className="text-3xl font-bold">Casual Wear Shirts</h1>
 
         <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
-          Explore premium Charcoal branded shirts for men at Anand Fashion,
-          Udaipur. Available in formal and casual styles with multiple colour
-          and size options. Visit our store or enquire on WhatsApp for
-          availability.
+          Discover a stylish range of casual wear shirts for men at Anand Fashion,
+          Udaipur. Designed for everyday comfort, casual outings and relaxed
+          occasions with modern fits and breathable fabrics.
         </p>
       </div>
 
-      {/* ================= FORMAL SHIRTS ================= */}
-      <Section title="Formal Shirts">
-
-        <ProductRow title="Solid Formal Shirts">
-          <ProductCard
-            name="Charcoal Solid Formal Shirt"
-            category="Men / Shirts / Charcoal"
-            image="/products/men/charcoal/formal-1.jpg"
-          />
-
-          <ProductCard
-            name="Charcoal Slim Fit Formal Shirt"
-            category="Men / Shirts / Charcoal"
-            image="/products/men/charcoal/formal-2.jpg"
-          />
-        </ProductRow>
-
-        <ProductRow title="Striped & Patterned Shirts">
-          <ProductCard
-            name="Charcoal Striped Formal Shirt"
-            category="Men / Shirts / Charcoal"
-            image="/products/men/charcoal/formal-3.jpg"
-          />
-
-          <ProductCard
-            name="Charcoal Check Shirt"
-            category="Men / Shirts / Charcoal"
-            image="/products/men/charcoal/formal-4.jpg"
-          />
-        </ProductRow>
-
-      </Section>
-
       {/* ================= CASUAL SHIRTS ================= */}
-      <Section title="Casual Shirts">
+      <Section title="Casual Shirt Styles">
 
         <ProductRow title="Printed & Casual Shirts">
           <ProductCard
-            name="Charcoal Printed Casual Shirt"
-            category="Men / Shirts / Charcoal"
-            image="/products/men/charcoal/casual-1.jpg"
+            name="Printed Casual Shirt"
+            category="Men / Shirts / Casual Wear"
+            image="/products/men/shirts/casual/casual-1.jpg"
           />
 
           <ProductCard
-            name="Charcoal Casual Cotton Shirt"
-            category="Men / Shirts / Charcoal"
-            image="/products/men/charcoal/casual-2.jpg"
+            name="Cotton Casual Shirt"
+            category="Men / Shirts / Casual Wear"
+            image="/products/men/shirts/casual/casual-2.jpg"
           />
         </ProductRow>
 
       </Section>
+
       {/* ================= WHATSAPP ENQUIRY ================= */}
-<div className="border rounded-xl p-6 bg-gray-50 space-y-3">
-  <h2 className="text-lg font-semibold">
-    Enquire About Charcoal Shirts
-  </h2>
+      <div className="border rounded-xl p-6 bg-gray-50 space-y-3">
+        <h2 className="text-lg font-semibold">
+          Enquire About Casual Wear Shirts
+        </h2>
 
-  <p className="text-sm text-gray-600 max-w-2xl">
-    Looking for Charcoal shirts in a specific size, colour or style?
-    Contact Anand Fashion on WhatsApp for availability and pricing details.
-  </p>
+        <p className="text-sm text-gray-600 max-w-2xl">
+          Looking for casual wear shirts in a specific size, colour or style?
+          Contact Anand Fashion on WhatsApp for availability and pricing details.
+        </p>
 
-  <a
-    href="https://wa.me/919214456664?text=Hi%20Anand%20Fashion,%20I%20saw%20Charcoal%20shirts%20on%20your%20website.%20Please%20confirm%20available%20sizes%20and%20price%20range.
-"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-flex items-center justify-center bg-green-600 text-white px-6 py-3 rounded-lg text-sm font-medium hover:bg-green-700 transition"
-  >
-    Enquire on WhatsApp
-  </a>
-</div>
-
+        <a
+          href="https://wa.me/919214456664?text=Hi%20Anand%20Fashion,%20I%20want%20to%20enquire%20about%20men’s%20casual%20wear%20shirts.%20Please%20share%20available%20sizes,%20colours%20and%20price%20range."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center bg-green-600 text-white px-6 py-3 rounded-lg text-sm font-medium hover:bg-green-700 transition"
+        >
+          Enquire on WhatsApp
+        </a>
+      </div>
 
       {/* ================= STORE NOTE ================= */}
       <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
-        Charcoal shirts are known for premium fabric quality and excellent
-        fitting. Anand Fashion offers a curated Charcoal collection in Udaipur
-        with multiple colour and size options. Contact us on WhatsApp or visit
-        our store in Bhopalpura for the latest designs.
+        Anand Fashion offers a curated selection of casual wear shirts in
+        Udaipur, suitable for daily use and relaxed occasions. Visit our store
+        in Bhopalpura to explore the latest casual shirt collections.
       </p>
 
     </div>

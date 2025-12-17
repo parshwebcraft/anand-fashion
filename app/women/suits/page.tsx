@@ -30,13 +30,13 @@ export default function WomenSuitsPage() {
           "
         >
           <ProductCard
-            name="Cotton Suits"
+            name="Cotton Wear Suits"
             category="Women / Suits"
             image="/products/women/suits/suit-1.jpg"
           />
 
           <ProductCard
-            name="Printed Suits"
+            name="Party Wear Suits"
             category="Women / Suits"
             image="/products/women/suits/suit-2.jpg"
           />

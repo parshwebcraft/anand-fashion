@@ -1,51 +1,51 @@
 import ProductCard from "@/components/ProductCard";
 
 export const metadata = {
-  title: "Structuren Cargo Shirts for Men in Udaipur",
+  title: "Party Wear Shirts for Men in Udaipur",
   description:
-    "Shop Structuren cargo shirts for men in Udaipur at Anand Fashion. Available in multiple colours, fits and sizes.",
+    "Shop Party Wear shirts for men in Udaipur at Anand Fashion. Available in multiple colours, fits and sizes.",
 };
 
-export default function StructurenCargoShirtsPage() {
+export default function PartyWearShirtsPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12 space-y-16">
 
       {/* ================= PAGE HEADER ================= */}
       <div className="space-y-3">
-        <h1 className="text-3xl font-bold">Structuren Cargo Shirts</h1>
+        <h1 className="text-3xl font-bold">Party Wear Shirts</h1>
 
         <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
-          Discover rugged and stylish Structuren cargo shirts for men at Anand
-          Fashion, Udaipur. These shirts feature utility pockets and durable
-          fabrics, perfect for casual and outdoor wear.
+          Discover stylish Party Wear shirts for men at Anand
+          Fashion, Udaipur. These shirts feature durable
+          fabrics, perfect for formal and informal party wear.
         </p>
       </div>
 
       {/* ================= CASUAL CARGO SHIRTS ================= */}
-      <Section title="Casual Cargo Shirts">
-        <ProductRow title="Solid Cargo Shirts">
+      <Section title="Party Wear Shirts">
+        <ProductRow title="Party Wear Shirts">
           <ProductCard
-            name="Solid Cotton Cargo Shirt"
+            name="Party Wear Shirt"
             category="Men / Shirts / Cargo"
             image="/products/men/cargo-shirts/solid-1.jpg"
           />
 
           <ProductCard
-            name="Slim Fit Cargo Shirt"
+            name="Party Wear Shirt"
             category="Men / Shirts / Cargo"
             image="/products/men/cargo-shirts/solid-2.jpg"
           />
         </ProductRow>
 
-        <ProductRow title="Utility Pocket Shirts">
+        <ProductRow title="Party Wear Shirts">
           <ProductCard
-            name="Dual Pocket Cargo Shirt"
+            name="Party Wear Shirt"
             category="Men / Shirts / Cargo"
             image="/products/men/cargo-shirts/utility-1.jpg"
           />
 
           <ProductCard
-            name="Heavy Fabric Utility Shirt"
+            name="Party Wear Shirt"
             category="Men / Shirts / Cargo"
             image="/products/men/cargo-shirts/utility-2.jpg"
           />
@@ -53,16 +53,16 @@ export default function StructurenCargoShirtsPage() {
       </Section>
 
       {/* ================= FABRIC & STYLE ================= */}
-      <Section title="Fabric & Style Options">
-        <ProductRow title="Cotton & Twill Cargo Shirts">
+      <Section title="Party Wear Fabric & Style Options">
+        <ProductRow title="Cotton & Twill Party Wear Shirts">
           <ProductCard
-            name="Cotton Cargo Shirt"
+            name="Cotton Party Wear Shirt"
             category="Men / Shirts / Cargo"
             image="/products/men/cargo-shirts/fabric-1.jpg"
           />
 
           <ProductCard
-            name="Twill Cargo Shirt"
+            name="Twill Party Wear Shirt"
             category="Men / Shirts / Cargo"
             image="/products/men/cargo-shirts/fabric-2.jpg"
           />
@@ -71,11 +71,11 @@ export default function StructurenCargoShirtsPage() {
       {/* ================= WHATSAPP ENQUIRY ================= */}
 <div className="border rounded-xl p-6 bg-gray-50 space-y-3">
   <h2 className="text-lg font-semibold">
-    Enquire About Structuren Cargo Shirts
+    Enquire About Party Wear Shirts
   </h2>
 
   <p className="text-sm text-gray-600 max-w-2xl">
-    Looking for Structuren Cargo Shirts in a specific size, colour or style?
+    Looking for Party Wearo Shirts in a specific size, colour or style?
     Contact Anand Fashion on WhatsApp for availability and pricing details.
   </p>
 
@@ -92,8 +92,8 @@ export default function StructurenCargoShirtsPage() {
 
       {/* ================= STORE NOTE ================= */}
       <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
-        Cargo shirts are popular for their durability and utility-inspired
-        design. Anand Fashion offers a curated collection of Structuren cargo
+        Party Wear shirts are popular for their durability and utility-inspired
+        design. Anand Fashion offers a curated collection of Party Wear
         shirts in Udaipur. Visit our store in Bhopalpura or contact us on
         WhatsApp to check available colours and sizes.
       </p>

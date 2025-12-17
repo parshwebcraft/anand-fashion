@@ -2,23 +2,24 @@ import ProductCard from "@/components/ProductCard";
 import ProductRow from "@/components/ProductRow";
 
 export const metadata = {
-  title: "Women’s Clothing in Udaipur | Anand Fashion",
+  title: "Ladies Clothing Store in Udaipur | Anand Fashion",
   description:
-    "Explore women’s suits and kurtis at Anand Fashion, Udaipur. Elegant ethnic wear available from multiple brands.",
+    "Explore ladies suits, kurtis, jeans, tops and one-piece dresses at Anand Fashion, Udaipur. Stylish and comfortable collections for everyday and festive wear.",
 };
 
-export default function WomenPage() {
+export default function LadiesPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12 space-y-20">
 
       {/* ================= PAGE HEADER ================= */}
       <div className="space-y-3">
-        <h1 className="text-3xl font-bold">Women’s Collection</h1>
+        <h1 className="text-3xl font-bold">Ladies Collection</h1>
 
         <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
-          Discover elegant and comfortable women’s ethnic wear at Anand Fashion,
-          Udaipur. Browse our curated collection of suits and kurtis suitable
-          for daily wear, office and festive occasions.
+          Discover stylish and comfortable ladies wear at Anand Fashion,
+          Udaipur. Browse our curated collection of suits, kurtis, jeans,
+          tops and one-piece dresses suitable for daily wear, office and
+          festive occasions.
         </p>
       </div>
 
@@ -27,7 +28,7 @@ export default function WomenPage() {
 
         {/* SUITS */}
         <ProductRow
-          title="Women’s Suits"
+          title="Suits"
           description="Elegant suit sets suitable for daily wear, office and festive occasions."
         >
           <ProductCard
@@ -40,7 +41,7 @@ export default function WomenPage() {
 
         {/* KURTIS */}
         <ProductRow
-          title="Women’s Kurtis"
+          title="Kurtis"
           description="Comfortable and stylish kurtis available in cotton, printed and designer styles."
         >
           <ProductCard
@@ -51,14 +52,52 @@ export default function WomenPage() {
           />
         </ProductRow>
 
+        {/* JEANS */}
+        <ProductRow
+          title="Jeans"
+          description="Modern ladies jeans available in different fits for everyday and casual wear."
+        >
+          <ProductCard
+            name="View All Jeans Collections"
+            category="Women / Jeans"
+            image="/products/women/categories/jeans.jpg"
+            href="/women/jeans"
+          />
+        </ProductRow>
+
+        {/* TOPS */}
+        <ProductRow
+          title="Tops"
+          description="Stylish ladies tops suitable for office wear and casual outings."
+        >
+          <ProductCard
+            name="View All Tops Collections"
+            category="Women / Tops"
+            image="/products/women/categories/tops.jpg"
+            href="/women/tops"
+          />
+        </ProductRow>
+
+        {/* ONE-PIECE */}
+        <ProductRow
+          title="One-Piece Dresses"
+          description="Trendy one-piece dresses ideal for parties and casual occasions."
+        >
+          <ProductCard
+            name="View All One-Piece Collections"
+            category="Women / One-Piece"
+            image="/products/women/categories/one-piece.jpg"
+            href="/women/one-piece"
+          />
+        </ProductRow>
+
       </Section>
 
       {/* ================= SEO / LOCAL TEXT ================= */}
       <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
-        Anand Fashion offers a curated range of women’s ethnic wear in Udaipur,
-        including suits and kurtis suitable for everyday wear and special
-        occasions. Visit our store in Bhopalpura for the latest collections
-        and availability.
+        Anand Fashion is a trusted ladies clothing store in Udaipur offering
+        suits, kurtis, jeans, tops and one-piece dresses. Visit our store in
+        Bhopalpura to explore the latest collections and check availability.
       </p>
 
     </div>

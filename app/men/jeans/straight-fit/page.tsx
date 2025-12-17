@@ -1,9 +1,9 @@
 import ProductCard from "@/components/ProductCard";
 
 export const metadata = {
-  title: "Branded Comfort Narrow Jeans for Men in Udaipur | Anand Fashion",
+  title: "Branded Straight Fit Jeans for Men in Udaipur | Anand Fashion",
   description:
-    "Explore Branded Comfort Narrow jeans for men in Udaipur at Anand Fashion. Available in multiple washes and all sizes.",
+    "Explore Branded Straight Fit jeans for men in Udaipur at Anand Fashion. Available in multiple washes and all sizes.",
 };
 
 export default function ComfortNarrowJeansPage() {
@@ -12,10 +12,10 @@ export default function ComfortNarrowJeansPage() {
 
       {/* ================= PAGE HEADER ================= */}
       <div className="space-y-3">
-        <h1 className="text-3xl font-bold">Comfort Narrow Jeans</h1>
+        <h1 className="text-3xl font-bold">Straight Fit Jeans</h1>
 
         <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
-          Discover premium Comfort Narrow branded jeans for men at Anand Fashion,
+          Discover premium Straight Fit branded jeans for men at Anand Fashion,
           Udaipur. This jeans are known for comfortable fits, reliable
           stitching and stylish everyday designs. Available in Big and
           regular fit options with multiple colour and size choices.
@@ -23,23 +23,23 @@ export default function ComfortNarrowJeansPage() {
       </div>
 
       {/* ================= SLIM FIT JEANS ================= */}
-      <Section title="Comfort Narrow Jeans">
+      <Section title="Straight Fit Jeans">
 
-        <ProductRow title="Modern Narrow Styles">
+        <ProductRow title="Modern Straight Fit Styles">
           <ProductCard
-            name="Comfort Narrow Blue Jeans"
+            name="Straight Fit Blue Jeans"
             category="Men / Jeans / Privilege"
             image="/products/men/jeans/privilege/slim-1.jpg"
           />
 
           <ProductCard
-            name="Comfort Narrow Dark Blue Jeans"
+            name="Straight Fit Dark Blue Jeans"
             category="Men / Jeans / Privilege"
             image="/products/men/jeans/privilege/slim-2.jpg"
           />
 
           <ProductCard
-            name="Comfort Narrow Black Jeans"
+            name="Straight Fit  Black Jeans"
             category="Men / Jeans / Privilege"
             image="/products/men/jeans/privilege/slim-3.jpg"
           />
@@ -48,17 +48,17 @@ export default function ComfortNarrowJeansPage() {
       </Section>
 
       {/* ================= REGULAR FIT JEANS ================= */}
-      <Section title="Comfort Regular Fit Jeans">
+      <Section title="Straight Fit Regular Fit Jeans">
 
         <ProductRow title="Comfort & Daily Wear">
           <ProductCard
-            name="Comfort Narrow Regular Fit Blue Jeans"
+            name="Straight Fit Regular Blue Jeans"
             category="Men / Jeans / Privilege"
             image="/products/men/jeans/privilege/regular-1.jpg"
           />
 
           <ProductCard
-            name="Comfort Narrow Regular Fit Mid Blue Jeans"
+            name="Straight Fit  Regular Mid Blue Jeans"
             category="Men / Jeans / Privilege"
             image="/products/men/jeans/privilege/regular-2.jpg"
           />
@@ -69,11 +69,11 @@ export default function ComfortNarrowJeansPage() {
       {/* ================= WHATSAPP ENQUIRY ================= */}
       <div className="border rounded-xl p-6 bg-gray-50 space-y-3">
         <h2 className="text-lg font-semibold">
-          Enquire About Comfort Narrow Jeans
+          Enquire About Straight Fit Jeans
         </h2>
 
         <p className="text-sm text-gray-600 max-w-2xl">
-          Looking for the right size, fit or colour inComfort Narrow jeans?
+          Looking for the right size, fit or colour in Straight Fit jeans?
           Contact Anand Fashion on WhatsApp for latest stock availability
           and pricing details.
         </p>
@@ -92,7 +92,7 @@ export default function ComfortNarrowJeansPage() {
       {/* ================= STORE NOTE ================= */}
       <p className="text-sm text-gray-600 leading-relaxed max-w-3xl">
         Anand Fashion is a trusted men’s clothing store in Udaipur offering
-        original Branded Comfort Narrow jeans with comfortable fitting and durable fabric.
+        original Branded Straight Fit jeans with comfortable fitting and durable fabric.
         Visit our store in Bhopalpura or contact us online for size and stock
         availability.
       </p>
